@@ -130,3 +130,4 @@ via*.json
 !/keyboards/zsa/**/keymaps/default/**
 !/keyboards/zsa/**/keymaps/oryx
 !/keyboards/zsa/**/keymaps/oryx/**
+.direnv
