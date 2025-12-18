@@ -78,3 +78,8 @@ combo_t key_combos[] = {
     COMBO(tmux_combo, KC_TMUX),
     COMBO(gui_combo, KC_LGUI),
 };
+
+void keyboard_post_init_user(void) {
+    rgb_matrix_mode_noeeprom(RGB_MATRIX_SOLID_COLOR);
+    rgb_matrix_sethsv_noeeprom(21, 255, 255);
+}
